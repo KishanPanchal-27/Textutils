@@ -1,0 +1,7 @@
+      <Routes> 
+          <Route path="/" element={       <TextForm mode={mode} togglemode={togglemode} showalert={showalert}/>} />
+          <Route path="/home" element={    <TextForm mode={mode} togglemode={togglemode} showalert={showalert}/>} />
+          <Route path="/about" element={      <About mode={mode} togglemode={togglemode}/>} />
+
+      </Routes>
+    </BrowserRouter>
